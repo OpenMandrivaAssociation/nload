@@ -9,7 +9,6 @@ Release:	%{release}
 Source:	http://prdownloads.sourceforge.net/nload/%{name}-%{version}.tar.bz2
 URL:		http://www.roland-riegel.de/nload/index.html?lang=en
 Group:		Monitoring
-BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 License:	GPL
 BuildRequires:	ncurses-devel
 
