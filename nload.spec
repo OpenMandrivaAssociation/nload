@@ -1,6 +1,6 @@
 %define	name	nload
 %define	version	0.7.2
-%define	release %mkrel 1
+%define	release %mkrel 2
 
 Name:		%{name} 
 Summary:	Ncurses network traffic and bandwidth monitor
