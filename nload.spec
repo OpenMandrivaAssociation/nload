@@ -23,12 +23,12 @@ amount of transfered data and min/max network usage.
 %setup -q
 
 %build
-%configure
+%configure2_5x
 %make
 
 %install
 rm -rf $RPM_BUILD_ROOT
-%makeinstall
+%makeinstall_std
 
 %clean 
 rm -rf $RPM_BUILD_ROOT 
