@@ -1,15 +1,14 @@
 %define	name	nload
-%define	version	0.7.2
-%define	release %mkrel 3
+%define	version	0.7.4
+%define	release 1
 
 Name:		%{name} 
 Summary:	Ncurses network traffic and bandwidth monitor
 Version:	%{version} 
 Release:	%{release} 
-Source:	http://prdownloads.sourceforge.net/nload/%{name}-%{version}.tar.bz2
+Source0:	http://www.roland-riegel.de/nload/%{name}-%{version}.tar.gz
 URL:		http://www.roland-riegel.de/nload/index.html?lang=en
 Group:		Monitoring
-BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 License:	GPL
 BuildRequires:	ncurses-devel
 
@@ -27,14 +26,9 @@ amount of transfered data and min/max network usage.
 %make
 
 %install
-rm -rf $RPM_BUILD_ROOT
 %makeinstall_std
 
-%clean 
-rm -rf $RPM_BUILD_ROOT 
-
 %files 
-%defattr(-,root,root)
 %doc AUTHORS COPYING ChangeLog NEWS README
 %{_mandir}/man1/nload*
 %{_bindir}/nload
