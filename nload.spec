@@ -1,7 +1,7 @@
 Summary:	Ncurses network traffic and bandwidth monitor
 Name:		nload
 Version:	0.7.4
-Release:	2
+Release:	3
 License:	GPLv2+
 Group:		Monitoring
 Url:		http://www.roland-riegel.de/nload/index.html?lang=en
