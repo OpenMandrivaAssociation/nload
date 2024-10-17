@@ -4,7 +4,7 @@ Version:	0.7.4
 Release:	3
 License:	GPLv2+
 Group:		Monitoring
-Url:		http://www.roland-riegel.de/nload/index.html?lang=en
+Url:		https://www.roland-riegel.de/nload/index.html?lang=en
 Source0:	http://www.roland-riegel.de/nload/%{name}-%{version}.tar.gz
 BuildRequires:	ncurses-devel
 
