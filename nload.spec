@@ -6,6 +6,11 @@ License:	GPLv2+
 Group:		Monitoring
 Url:		https://www.roland-riegel.de/nload/index.html?lang=en
 Source0:	http://www.roland-riegel.de/nload/%{name}-%{version}.tar.gz
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires:	ncurses-devel
 
 %description
